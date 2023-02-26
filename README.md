@@ -30,4 +30,9 @@ for month in range(12, 0, -1):
 ```
 distance = 3	# 间隔3小时
 ```
+用户id：请修改为抓包获取到的id。例如下列的id为：seekruid=2381495  
+```
+readUrl('https://forest-china.upwardsware.com/api/v1/plants/?seekruid=2381495&seekrua=ios-4.53.2', 'url')
+readUrl('https://forest-china.upwardsware.com/api/v1/users/2381495/coin?seekruid=2381495&seekrua=ios-4.53.2', 'url_2')
+```
 
