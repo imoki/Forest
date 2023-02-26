@@ -1,0 +1,8 @@
+Host: forest-china.upwardsware.com
+Accept: */*
+If-None-Match: W/"6059580c954a929cae297372237e783a"
+Cookie: xxxx
+User-Agent: Forest/4.53.2 (com.forestapp.Forest; build:4133118.8146094641; iOS 15.3.0) Alamofire/5.2.2
+Accept-Language: zh-Hans-CN;q=1.0
+Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8
+Connection: keep-alive
