@@ -59,7 +59,6 @@ def readData(file):
 def changeData():
 	print(config['data'])
 	dictData = json.loads(config['data'])
-	#{"plant":{"note":"","trees":[{"is_dead":false,"phase":4,"tree_type":81}],"end_time":"2022-07-22T11:00:36.995Z","has_left":true,"is_success":true,"tag":0,"start_time":"2022-07-22T10:50:36.995Z","room_id":0,"theme":0,"mode":"countdown"}}
 	#print(dictData['plant']['end_time'])
 
 # 修改data中的时间字段
@@ -146,10 +145,10 @@ def juiceDay(year, month):
 		return 0
 
 if __name__ == '__main__':
-	readUrl('https://forest-china.upwardsware.com/api/v1/plants/?seekruid=2292294&seekrua=ios-4.53.2', 'url')
+	readUrl('https://forest-china.upwardsware.com/api/v1/plants/?seekruid=2382295&seekrua=ios-4.53.2', 'url')
 	readHeader('header.txt', 'headers')
 	readData('data.txt')
-	readUrl('https://forest-china.upwardsware.com/api/v1/users/2292294/coin?seekruid=2292294&seekrua=ios-4.53.2', 'url_2')
+	readUrl('https://forest-china.upwardsware.com/api/v1/users/2382295/coin?seekruid=2382295&seekrua=ios-4.53.2', 'url_2')
 	readHeader('header_2.txt', 'headers_2')
 	#print(config)
 	distance = 3	# 间隔3小时
