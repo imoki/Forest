@@ -1,4 +1,4 @@
-# Forest
+# Forest（抱歉，已不再更新）
 Forest专注森林无限金币脚本
 
 ## 声明  
